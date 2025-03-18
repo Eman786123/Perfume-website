@@ -1,0 +1,98 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color:#FAF9F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-box {
+    background-color: pink;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(45, 0, 56, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: light E5989B;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: E5989B;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.input-group input:focus {
+    border-color: B5828C; /* Slight coral color */
+}
+
+.btn {
+    width: 100%;
+    padding: 14px;
+    background-color:purple ; /* Coral color */
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: pink;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #3b003b;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
